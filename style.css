@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins,sans-serif;
+    scroll-behavior: smooth;
+}
+.header{
+    padding: 3.5%;
+    background-color: #074873;
+    position: fixed;
+    margin-left: 20%;
+    
+    
+}
+.w{
+    width: 150px;
+}
+
+.nav{
+    background-color: aquamarine;
+    padding-top: 10%;
+    margin-right: 80%;
+    padding-bottom:50% ;
+    position: sticky;
+   
+}
+.gap-2 {
+    gap: .5rem;
+    row-gap: 0.5rem;
+    column-gap: 0.5rem;
+}
+.items-center {
+    align-items: center;
+}
+.flex-col {
+    flex-direction: column;
+}
+.flex {
+    display: flex;
+}
+.mb-12 {
+    margin-bottom: 3rem;
+}
